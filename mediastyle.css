@@ -1,0 +1,196 @@
+@media  screen and (max-width: 900px) {
+    body{
+        text-align: center;
+    }
+    #info a{
+        display: none;
+    }
+    .navbar img {
+        width: 100px;  
+    }
+    svg{
+        display: block;
+    }
+
+    ul{
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        background-color: #334A74;
+        z-index: 999;
+    }
+
+    #menuList{
+        transition: .6s;
+    }
+    li{
+        padding: 20px;
+    }
+    li a{
+        line-height: 50px;
+        color: #ffffff;
+        width: 100%;
+    }
+
+    .navbar{
+        align-items: center;
+        position: relative;
+    }
+
+    
+    .book-now img{
+        display: none;
+    }
+    .book-now {
+        text-align: center;
+        padding: 80px 0px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h6{
+        font-size: 16px;
+        text-align: center;
+    }
+    .about-us .info-pic{
+        display: none;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .features .box{
+        border: none;
+    }
+    .servies-boxes{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        gap: 100px;
+    }
+    .servies-boxes p{
+        font-size: 20px;
+        color: #334A74;
+        font-weight: 400;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .fa-solid.fa-people-arrows,.fa-solid.fa-headset,.fa-solid.fa-bullseye{
+        font-size: 40px;
+        color: #51B5D1;
+        padding-bottom: 19px
+    }
+    .ad-space{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .small-tit{
+        text-align: center;
+        display: inline-block;
+    }
+    .Store-pic img{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .Store-pic{
+        display: block;
+        padding-top: 60px;
+        
+    }
+    .companies-logo .logos-carousel img{
+        width: 50px;
+        height: 100%;
+        box-shadow:  5px 5px 10px 5px rgba(97,97,97,0.15);
+        border-radius: 5px;
+    }
+    .news-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .news{
+        margin-bottom: 30px;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        padding-bottom: 80px;
+        border-bottom:2px solid #ffffff;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-info img{
+        width: 150px;
+        position:relative;
+
+    }
+    .logo-info p{
+        width: 230px;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .sections-site{
+        flex: 1;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .sections-site h2{
+        font-size: 20px;
+        font-weight: 600 ;
+        padding-bottom: 10px;
+    }
+    .sections-site a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        width: max-content;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    .package-boxes{
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact .contact-box1{
+        margin-bottom: 20px;
+    }
+    .sub-services{
+        display: block;
+    }
+    .main-services{
+        background-color: #F5F6F6 ;
+        width: max-content;
+        padding: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+        height: max-content;
+    }
+
+    .email-box input{
+        padding: 5px;
+        border-radius:  0px 5px 5px 0px;
+        width: 100%;
+        border: none;
+    }
+    button{
+        padding: 5px 20px 5px 20px;
+    }
+    
+    
+}
